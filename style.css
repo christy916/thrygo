@@ -1,3 +1,17 @@
+/* RESET (VERY IMPORTANT) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f2a1f; /* Rolex / Hermès green */
+  color: white;
+}
+
 /* Hermès-style header */
 .lux-header {
   position: absolute;
@@ -5,27 +19,4 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  z-index: 10;
-}
-
-/* Logo */
-.brand-logo {
-  height: 42px;          /* SMALL like Hermès */
-  opacity: 0.95;
-}
-
-/* Top visual stays full width */
-.top-visual {
-  height: 100vh; /* FULL SCREEN like Hermès */
-  background-image: url("images/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
-
-/* Green luxury tint */
-.visual-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 42, 31, 0.75);
-}
+  z-ind
